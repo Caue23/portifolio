@@ -1,6 +1,4 @@
 import { BsLinkedin } from "react-icons/bs";
-import Container from 'react-bootstrap/Container';
-import Carousel from 'react-bootstrap/Carousel';
 import styles from './projetos.module.scss'
 
 export default function Curriculo() {
