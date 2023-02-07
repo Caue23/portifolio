@@ -1,0 +1,158 @@
+.containerCurriculo{
+    padding: 0 2rem ;
+}
+.contentCurriculo{
+    display: flex;
+    width: 100%;
+    padding:2rem 0;
+    border-bottom: 1px solid var(--white) ;
+
+}
+.finalCurriculo{
+    width: 100%;
+    padding:2rem 0;
+
+}
+.textCurriculo{
+    padding: 5rem 0 0 12rem;
+    
+    h3{
+        font-size: 36px;
+        color:var(--white)
+    }
+    
+    p{
+        width: 200px;
+        font-size: 22px;
+        padding: 4rem 0 0 0;
+        color:var(--white)
+    }
+}
+.textTwoCurriculo{
+    padding: 5rem 0 0 5rem;
+    
+    h3{
+        font-size: 36px;
+        color:var(--white)
+    }
+    
+    p{
+        width: 200px;
+        font-size: 22px;
+        padding: 4rem 0 0 0;
+        color:var(--white)
+    }
+}
+
+.trabalhoCurriculo{
+    display: flex;
+    align-self: end;
+
+    p{
+        width: 20rem;
+        color: var(--white);
+        padding: 12rem 0 0 6rem;   
+     }
+    title{
+        color: var(--white)
+    }
+
+}
+.titleCurriculo{
+    width: 500px;
+    padding: 12rem 0 0 0;
+    h3{
+        color: var(--white);
+        padding: 0 0 2rem 0;
+    }
+    a{
+        color: var(--white);
+
+
+    }
+}
+.trabalhoTwoCurriculo{
+    display: flex;
+    align-self: end;
+
+    p{
+        width: 20rem;
+        color: var(--white);
+        padding: 6rem 0 0 6rem;   
+     }
+    title{
+        color: var(--white)
+    }
+
+}
+.titleTwoCurriculo{
+    width: 500px;
+    padding: 6rem 0 0 0;
+    h3{
+        color: var(--white);
+        padding: 0 0 2rem 0;
+    }
+    a{
+        color: var(--white);
+    }
+}
+.cardGroup{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.card{
+    display: grid;
+    width:10rem;
+    height:17rem;
+    border: 1px solid var(--white);
+    margin: 0.5rem;
+
+    img{
+        width: 100%;
+    }
+
+    h5{
+        width: 100%;
+        color: var(--white);
+        text-align: center;
+        padding: 1rem 0.2rem 0;
+    }
+
+    a{
+        color: var(--white);
+        text-align: center;
+        padding: 0 0 1rem 0;
+        align-self: flex-end;
+
+        
+
+        &:hover {
+            color: var(--gray-800);
+           
+    
+        }
+    }
+
+}
+.view{
+    padding: 2rem 0 2rem 0;
+    text-align-last: center;
+
+    button{
+        padding: 15px 35px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        background: transparent;
+        color: var(--white);
+        border: 2px solid white;
+        border-radius: 2rem;
+    
+        &:hover {
+            color: var(--gray-800);
+           
+    
+        }
+    }
+}
