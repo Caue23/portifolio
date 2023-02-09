@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import styles from './curriculo.module.scss';
 import Skills from '../../components/skills';
 
