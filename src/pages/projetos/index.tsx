@@ -3,7 +3,7 @@ import styles from './projetos.module.scss'
 
 const fixo = [
     { ID: 1, nome: 'HTML - CSS - JS', site: 'https://fruta-fruto-umber.vercel.app/', src:'/image/fruta.png' },
-    { ID: 2, nome: 'HTML - CSS - JS', site: 'https://alura-books-liard.vercel.app/', src:'/image/aluraBooks.png' },
+    { ID: 2, nome: 'HTML - CSS - JS', site: 'https://alura-books-liard.vercel.app/', src:'/image/AluraBooks.png' },
     { ID: 2, nome: 'Em construção', site: '', src:'/image/digitando.webp',  },
     
 ]
