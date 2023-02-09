@@ -180,7 +180,7 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:493px) {
     .contentCurriculo{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -259,7 +259,7 @@
     }
     .textTwoCurriculo{
         text-align-last: center;
-        padding: 4rem 0 4rem 5rem;
+        padding: 4rem 0 4rem 1rem;
         
         h3{
             font-size:16px;
@@ -291,7 +291,6 @@
     
     }
     .view{
-        padding: 2rem 0 2rem 6rem;
         text-align-last: center;
     }
     
