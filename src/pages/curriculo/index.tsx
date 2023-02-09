@@ -32,81 +32,84 @@ const certificados = [
 export default function Curriculo() {
     const [show, setShow] = useState(false)
     const status = (show === true) ? "Ver menos" : "Ver mais";
- 
+
     return (
         <div className={styles.containerCurriculo}>
-            <section className={styles.contentCurriculo}>
-                <ul>
-                    <li className={styles.textCurriculo}>
-                        <h3>Currículo</h3>
-                        <p >Experiência Profissional</p>
-                    </li>
-                </ul>
-                <section>
-                    <ul className={styles.trabalhoCurriculo} >
-                        <li className={styles.curriculo}>
-                            <p>Dez 2021 - Jan 2023</p>
-                        </li>
-                        <li className={styles.titleCurriculo}>
-                            <h3>Suzano Papel e Celulose</h3>
-                            <a>Alocado no time de DigitalTech na Suzano Papel e Celulose como desenvolvedor
-                                Front End junior e inicando os estudos em Back End. Responsável por criações e
-                                desenvolvimento de páginas web e Landing Page voltadas para divulgação de
-                                programas de inclusão e divulgações de engajamento em redes sociais. Utilizando as
-                                linguagens React Js, Javascripts, Typescripts, HTML & CSS.
-                            </a>
+            <section className={styles.line}>
+                <section className={styles.contentCurriculo}>
+                    <ul>
+                        <li className={styles.textCurriculo}>
+                            <h3>Currículo</h3>
+                            <p >Experiência Profissional</p>
                         </li>
                     </ul>
-                    <ul className={styles.trabalhoTwoCurriculo} >
-                        <li className={styles.curriculo}>
-                            <p>Mar 2012 - Dez 2021</p>
-                        </li>
-                        <li className={styles.titleTwoCurriculo}>
-                            <h3>Retentores Vedabras Ind e Com Ltda</h3>
-                            <a>Visitas a clientes e atendimento no balcão para realizar suporte tecnico,
-                                auxilio em vendas de peças, desenho de peças no solidWroks e autoCad.
-                                inspeção de peças com defeitos e criação de Rnc.
-                            </a>
-                        </li>
-                    </ul>
+                    <section>
+                        <ul className={styles.trabalhoCurriculo} >
+                            <li className={styles.titleCurriculo}>
+                                <p>Dez 2021 - Jan 2023</p>
+                                <li className={styles.curriculo}>
+                                    <h3>Suzano Papel e Celulose</h3>
+                                    <a>Alocado no time de DigitalTech na Suzano Papel e Celulose como desenvolvedor
+                                        Front End junior e inicando os estudos em Back End. Responsável por criações e
+                                        desenvolvimento de páginas web e Landing Page voltadas para divulgação de
+                                        programas de inclusão e divulgações de engajamento em redes sociais. Utilizando as
+                                        linguagens React Js, Javascripts, Typescripts, HTML & CSS.
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
+                        <ul className={styles.trabalhoTwoCurriculo} >
+                            <li className={styles.titleTwoCurriculo}>
+                                <p>Mar 2012 - Dez 2021</p>
+                                <li className={styles.curriculo}>
+                                    <h3>Retentores Vedabras Ind e Com Ltda</h3>
+                                    <a>Visitas a clientes e atendimento no balcão para realizar suporte tecnico,
+                                        auxilio em vendas de peças, desenho de peças no solidWorks e autoCad.
+                                        inspeção de peças com defeitos e criação de Rnc.
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
+                    </section>
                 </section>
             </section>
-            <section className={styles.contentCurriculo}>
-                <ul>
-                    <li className={styles.textCurriculo}>
-                        <h3 >Educação</h3>
-                    </li>
-                </ul>
-                <section>
-                    <ul className={styles.trabalhoCurriculo} >
-                        <li className={styles.curriculo}>
-                            <p>2019 - Atual</p>
-                        </li>
-                        <li className={styles.titleCurriculo}>
-                            <h3>Graduação - Sistemas de Informção</h3>
-                            <a>Cursando ultimo semestre de Sistemas de Informação
-                                na instituição de ensino Universidade nove de julho
-                            </a>
+            <section className={styles.line}>
+                <section className={styles.contentCurriculo}>
+                    <ul>
+                        <li className={styles.textCurriculo}>
+                            <h3 >Educação</h3>
                         </li>
                     </ul>
-                    <ul className={styles.trabalhoTwoCurriculo} >
-                        <li className={styles.curriculo}>
-                            <p>2017 - 2019</p>
-                        </li>
-                        <li className={styles.titleTwoCurriculo}>
-                            <h3>Etec Getúlio Vargas </h3>
-                            <a>Curso tecnico de mecanica industrial realizado no
-                                centro Paula Souza
-                            </a>
-                        </li>
-                    </ul>
+                    <section>
+                        <ul className={styles.trabalhoCurriculo} >
+                            <li className={styles.titleEducacao}>
+                                <p>2019 - Atual</p>
+                                <li className={styles.curriculoTwo}>
+                                    <h3>Graduação - Sistemas de Informção</h3>
+                                    <a>Cursando ultimo semestre de Sistemas de Informação
+                                        na instituição de ensino Universidade nove de julho
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
+                        <ul className={styles.trabalhoCurriculo} >
+                            <li className={styles.titleEducacao}>
+                                <p>2017 - 2019</p>
+                                <li className={styles.curriculoTwo}>
+                                    <h3>Etec Getúlio Vargas </h3>
+                                    <a>Curso tecnico de mecanica industrial realizado no
+                                        centro Paula Souza
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
+                    </section>
                 </section>
             </section>
             <section className={styles.finalCurriculo}>
                 <ul>
                     <li className={styles.textTwoCurriculo}>
-                        <h3 >Skills &</h3>
-                        <h3 >Especializações</h3>
+                        <h3 >Skills & Especializações</h3>
                     </li>
                 </ul>
                 <Skills />
@@ -142,7 +145,7 @@ export default function Curriculo() {
                     </section> : null
                 }
                 <section className={styles.view}>
-                    <button  onClick={() => setShow(!show)}>{status}</button>
+                    <button onClick={() => setShow(!show)}>{status}</button>
                 </section>
             </section>
 

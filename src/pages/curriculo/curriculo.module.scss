@@ -1,30 +1,32 @@
-.containerCurriculo{
-    padding: 0 2rem ;
-}
 .contentCurriculo{
-    display: flex;
-    width: 100%;
+    display: grid;
+    width: 400px;
+    grid-template-columns: repeat(2, 1fr);
     padding:2rem 0;
+    
+    ul{
+        width:400px
+    }
+}
+.line{
+    width: 100%;
     border-bottom: 1px solid var(--white) ;
-
 }
 .finalCurriculo{
     width: 100%;
     padding:2rem 0;
-
 }
 .textCurriculo{
-    padding: 5rem 0 0 12rem;
+        text-align: right;
     
     h3{
         font-size: 36px;
-        color:var(--white)
+        color:var(--white);
+        text-align-last: center;
     }
     
     p{
-        width: 200px;
         font-size: 22px;
-        padding: 4rem 0 0 0;
         color:var(--white)
     }
 }
@@ -43,15 +45,24 @@
         color:var(--white)
     }
 }
+.curriculo{
+    width: 500px;
+    align-self: end;
+}
+.curriculoTwo{
+    width: 500px;
+    align-self: end;
+}
 
 .trabalhoCurriculo{
     display: flex;
     align-self: end;
 
     p{
-        width: 20rem;
+        width: 15rem;
         color: var(--white);
-        padding: 12rem 0 0 6rem;   
+        text-align-last: center;
+        align-self: center;  
      }
     title{
         color: var(--white)
@@ -59,8 +70,10 @@
 
 }
 .titleCurriculo{
+    display: grid;
     width: 500px;
-    padding: 12rem 0 0 0;
+    height: 335px;
+    grid-template-columns: repeat(2, 1fr);
     h3{
         color: var(--white);
         padding: 0 0 2rem 0;
@@ -76,9 +89,10 @@
     align-self: end;
 
     p{
-        width: 20rem;
+        width: 15rem;
         color: var(--white);
-        padding: 6rem 0 0 6rem;   
+        text-align-last: center;
+        align-self: center;    
      }
     title{
         color: var(--white)
@@ -86,8 +100,23 @@
 
 }
 .titleTwoCurriculo{
+    display: grid;
     width: 500px;
-    padding: 6rem 0 0 0;
+    height: 230px;
+    grid-template-columns: repeat(2, 1fr);
+    h3{
+        color: var(--white);
+        padding: 0 0 2rem 0;
+    }
+    a{
+        color: var(--white);
+    }
+}
+.titleEducacao{
+    display: grid;
+    width: 500px;
+    height: 150px;
+    grid-template-columns: repeat(2, 1fr);
     h3{
         color: var(--white);
         padding: 0 0 2rem 0;
@@ -126,12 +155,8 @@
         padding: 0 0 1rem 0;
         align-self: flex-end;
 
-        
-
         &:hover {
             color: var(--gray-800);
-           
-    
         }
     }
 
@@ -151,8 +176,123 @@
     
         &:hover {
             color: var(--gray-800);
-           
-    
         }
     }
+}
+
+@media screen and (max-width:320px) {
+    .contentCurriculo{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trabalhoCurriculo{
+    
+        p{
+            justify-self: center; 
+         }
+    }
+
+    .textCurriculo{
+        
+        h3{
+            font-size: 16px;
+            color:var(--white)
+        }
+        
+        p{
+            text-align-last: center;
+            font-size: 12px;
+        }
+    }
+    .curriculo{
+        width: 350px;
+        justify-self: center;    
+        align-self: normal;
+    }
+    .trabalhoTwoCurriculo{  
+        text-align: center;  
+        p{
+            justify-self: center;   
+         }    
+    }
+    
+
+    .titleCurriculo{
+        grid-template-columns: repeat(1, 1fr);
+        
+        h3{
+            font-size: 14px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .titleTwoCurriculo{
+        grid-template-columns: repeat(1, 1fr);
+        h3{
+            font-size: 14px;
+        }
+        a{
+            color: var(--white);
+        }
+
+    }
+    .titleEducacao{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 0;
+        h3{
+            font-size: 14px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .curriculoTwo{
+        width: 300px;
+        justify-self: center;
+    }
+    .trabalhoCurriculo{
+        text-align: center;
+    }
+    .line{
+        width: 400px;
+    }
+    .textTwoCurriculo{
+        text-align-last: center;
+        padding: 4rem 0 4rem 5rem;
+        
+        h3{
+            font-size:16px;
+            color:var(--white)
+        }
+    }
+    .cardGroup{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem;
+    }
+    .card{
+        display: grid;
+        width:8rem;
+        height:17rem;
+        border: 1px solid var(--white);
+        margin: 0.5rem;
+    
+        img{
+            width: 100%;
+        }
+    
+        h5{
+           font-size: 12px;
+        }
+    
+        a{
+            font-size: 12px;
+        }
+    
+    }
+    .view{
+        padding: 2rem 0 2rem 6rem;
+        text-align-last: center;
+    }
+    
 }

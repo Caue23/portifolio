@@ -99,3 +99,58 @@
 
 }
 
+@media screen and (max-width:320px) {
+  .ContainerImage{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ContentImage{
+    display: grid;
+    width: 90%;
+    justify-content: flex-end;
+    padding: 5rem 0 0 3rem;
+  
+  
+    img{
+      width: 95%;
+      height: 95%;
+
+    }
+  }
+  .textImage{
+    width: 40%;
+    padding: 6rem 1rem 0 3rem;
+    display: grid;
+  
+    h3{
+      text-align: center;
+    }
+  
+    p{
+      text-align: center;
+    }
+    a{
+      text-align: center;
+    }
+
+    
+  
+  
+  }
+  .SpanImage{
+    
+    button{
+      margin: 0 1rem 0 0;
+    }
+  }
+  
+  
+}
+@media screen and (min-width:1728px) {
+  .topicos {
+      padding: 3em 30vw;
+  }
+}
+

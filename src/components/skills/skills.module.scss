@@ -8,3 +8,19 @@
         padding: 0 2rem 0 0;
     }
 }
+@media screen and (max-width:320px) {
+    .skills{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2,1fr);
+        padding: 1rem 0 3rem 4rem;
+        
+    
+        img{
+            width:auto;
+            height: 30px;
+            padding: 0 2rem 0 0;
+            margin: 1rem 0 0 0;
+        }
+    }
+}
