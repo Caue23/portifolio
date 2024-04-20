@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <header className={styles.ContainerImage}>
       <section className={styles.ContentImage}>
-        <img src="/image/caue1.jpg" />
+        <img src="/image/rio.jpg" />
       </section>
       <section className={styles.textImage}>
           <h3>Olá!</h3>
