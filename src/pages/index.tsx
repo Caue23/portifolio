@@ -38,9 +38,9 @@ export default function Home() {
           </span>
 
           <a>Me chamo Cauê Vinicius, tenho 29 anos, um apaixonado por tecnologia. Sou formado em sistemas da informação e desenvolvedor web frontEnd e backEnd. 
-            Há 2 ano migrei de carreira e acabei me encontrando na área de tecnologia, como desenvolvedor júnior realizo projetos de
+            Há 2 anos migrei de carreira e acabei me encontrando na área de tecnologia. Como desenvolvedor júnior realizo projetos de
             paginas web e landingPages responsivas e acessíveis. Utilizo as linguagens React-JS,Angular 9, PHP 7, JavaScript, TypeScript, HTML & CSS e
-            a cada dia buscando se aprofundar cada vez mais em novas linguagens.
+            buscando me aprofundar cada vez mais em novas linguagens.
           </a>
             <ul >
               <li className={styles.SpanImage}>
