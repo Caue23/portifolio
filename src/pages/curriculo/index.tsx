@@ -44,6 +44,21 @@ export default function Curriculo() {
                         </li>
                     </ul>
                     <section>
+                    <ul className={styles.trabalhoCurriculo} >
+                            <li className={styles.titleCurriculo}>
+                                <p className={styles.date}>Mai 2023 - Atual</p>
+                                <li className={styles.curriculo}>
+                                    <h3 >Idigital</h3>
+                                    <a>Alocado no time de Retail Tech na Cheil Brasil, atuo como desenvolvedor FullStack junior, 
+                                        contribuindo tanto para a Cheil Brasil quanto para o cliente Samsung. Minhas responsabilidades 
+                                        incluem criação e manutenção de páginas web, Landing Pages, APIs, utilizando as tecnologias 
+                                        Angular 9, JavaScript, HTML, CSS, PHP 7. 
+                                        Colaboro ativamente na entrega de soluções que atendam às necessidades da Cheil Brasil e do
+                                        cliente Samsung.
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
                         <ul className={styles.trabalhoCurriculo} >
                             <li className={styles.titleCurriculo}>
                                 <p>Dez 2021 - Jan 2023</p>

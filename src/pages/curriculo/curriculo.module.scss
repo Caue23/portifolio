@@ -53,7 +53,9 @@
     width: 500px;
     align-self: end;
 }
-
+.date{
+    padding-bottom: 2.5rem;
+}
 .trabalhoCurriculo{
     display: flex;
     align-self: end;
@@ -189,6 +191,7 @@
     
         p{
             justify-self: center; 
+            padding-bottom: 0;
          }
     }
 

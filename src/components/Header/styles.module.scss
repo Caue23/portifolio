@@ -1,8 +1,15 @@
-.headerContainer{
-    height: 5rem;
-    border-bottom: 1px solid var(--white);
 
-}
+@keyframes changeColor {
+    0% { border-color: #0074D9; } 
+    50% { border-color: #7FDBFF; } 
+    100% { border-color: #3D9970; }  
+  }
+  
+  .headerContainer {
+    border: none;
+    border-bottom: 2px solid #0074D9; 
+    animation: changeColor 5s infinite; 
+  }
 
 .headerContent {
     height: 5rem;
@@ -11,6 +18,11 @@
     display: flex;
     align-items: center;
 
+    @keyframes changeTextColor {
+        0% { color: #0074D9; } 
+        50% { color: #7FDBFF; } 
+        100% { color: #3D9970; } 
+      }
     text{
         display: inline-block;
         position: relative;
@@ -18,10 +30,11 @@
         height: 5rem;
         line-height: 5rem;
         font-size: 26px;
-        font-weight:700;
-        color: var(--white);
-        transition: color 0.2s;
+        font-weight: 700;
+        color: #0074D9;
         cursor: pointer;
+        animation: changeTextColor 5s infinite;
+        
         
         &:hover {
             color: var(--gray-800);
@@ -36,8 +49,10 @@
         height: 5rem;
         line-height: 5rem;
         font-weight:700;
-        color: var(--white);
+        color: #0074D9;
         transition: color 0.2s;
+        animation: changeTextColor 5s infinite;
+        cursor: pointer;
 
         &:hover {
             color: var(--gray-800);
@@ -64,7 +79,7 @@
             color: var(--white);
             transition: color 0.2s;
             margin-left: 1rem;
-
+            animation: changeTextColor 5s infinite;
 
 
             &:hover {
