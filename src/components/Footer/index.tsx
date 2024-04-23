@@ -12,7 +12,7 @@ export  function Footer () {
               <span>
               Me siga:
               <a href="https://www.linkedin.com/in/cauê-santos-1126b2149"> <BsLinkedin /></a>
-              
+              <a  href="https://www.instagram.com/caaue_santos/"><FaInstagram className={styles.instagram}/></a>
 
               </span>
           </nav>
